@@ -1,0 +1,325 @@
+body.gym-shop-theme {
+    background: #111111;
+    color: #f5f2ea;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+
+body.gym-shop-theme .gray-bg,
+body.gym-shop-theme #page-wrapper {
+    background: #111111;
+}
+
+body.gym-shop-theme .navbar-default.navbar-static-side {
+    background: #0b0b0b;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.gym-shop-theme .nav-header {
+    background: #0b0b0b;
+}
+
+body.gym-shop-theme .navbar-static-top,
+body.gym-shop-theme .row.border-bottom,
+body.gym-shop-theme .footer {
+    background: #111111;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+    color: #cfc9bd;
+}
+
+body.gym-shop-theme .navbar-form-custom .form-control {
+    background: #181818;
+    color: #f5f2ea;
+}
+
+body.gym-shop-theme .navbar-minimalize,
+body.gym-shop-theme .btn-primary,
+body.gym-shop-theme .btn-info,
+body.gym-shop-theme .btn-success,
+body.gym-shop-theme .btn-warning {
+    background: linear-gradient(135deg, #db1f1f 0%, #ff7a18 52%, #ffd43b 100%);
+    border: 0;
+    color: #111111;
+    font-weight: 800;
+}
+
+body.gym-shop-theme .btn-danger {
+    background: #111111;
+    border: 1px solid #ff4b2b;
+    color: #ffb23f;
+}
+
+body.gym-shop-theme .btn-secondary {
+    background: transparent;
+    border: 1px solid rgba(245, 242, 234, 0.35);
+    color: #f5f2ea;
+}
+
+body.gym-shop-theme .btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+body.gym-shop-theme .page-heading {
+    position: relative;
+    min-height: 170px;
+    padding: 34px 44px 28px;
+    background: #111111 !important;
+    border: 0 !important;
+    overflow: hidden;
+}
+
+body.gym-shop-theme .page-heading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38%;
+    height: 12px;
+    background: linear-gradient(90deg, #db1f1f 0%, #ff7a18 50%, #ffd43b 100%);
+}
+
+body.gym-shop-theme .page-heading:after {
+    content: "LARPERS SHOP";
+    position: absolute;
+    right: 42px;
+    bottom: 24px;
+    color: rgba(255, 255, 255, 0.08);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 0.85;
+    letter-spacing: 0;
+}
+
+body.gym-shop-theme .page-heading h2 {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0;
+    color: #f5f2ea;
+    font-size: clamp(34px, 5vw, 76px);
+    font-weight: 900;
+    line-height: 0.92;
+    text-transform: uppercase;
+}
+
+body.gym-shop-theme .wrapper-content {
+    padding: 34px 44px 44px;
+}
+
+body.gym-shop-theme .animated.fadeInRightBig {
+    animation-name: fadeIn;
+}
+
+body.gym-shop-theme .ibox,
+body.gym-shop-theme .card,
+body.gym-shop-theme .modal-content {
+    background: #f5f2ea;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #111111;
+}
+
+body.gym-shop-theme .ibox {
+    margin-bottom: 26px;
+}
+
+body.gym-shop-theme .ibox-title,
+body.gym-shop-theme .ibox-content,
+body.gym-shop-theme .card-body,
+body.gym-shop-theme .modal-header,
+body.gym-shop-theme .modal-body,
+body.gym-shop-theme .modal-footer {
+    background: transparent;
+    border-color: #111111;
+}
+
+body.gym-shop-theme .ibox-title {
+    min-height: auto;
+    padding: 20px 22px 8px;
+}
+
+body.gym-shop-theme .ibox-title h5,
+body.gym-shop-theme .ibox-content h5,
+body.gym-shop-theme .card-title,
+body.gym-shop-theme label,
+body.gym-shop-theme th {
+    color: #111111;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+body.gym-shop-theme .ibox-content {
+    padding: 22px;
+}
+
+body.gym-shop-theme .ibox-content h1 {
+    color: #111111;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+body.gym-shop-theme .ibox-content small,
+body.gym-shop-theme .text-muted {
+    color: #6d665b !important;
+}
+
+body.gym-shop-theme .ibox-content:before,
+body.gym-shop-theme .card:before {
+    content: "";
+    display: block;
+    height: 6px;
+    background: linear-gradient(90deg, #db1f1f 0%, #ff7a18 50%, #ffd43b 100%);
+}
+
+body.gym-shop-theme .table {
+    margin-bottom: 0;
+    color: #111111;
+}
+
+body.gym-shop-theme .table th,
+body.gym-shop-theme .table td {
+    border-color: rgba(17, 17, 17, 0.18) !important;
+    vertical-align: middle;
+}
+
+body.gym-shop-theme .table thead th {
+    background: #111111;
+    border-color: #111111 !important;
+    color: #f5f2ea;
+}
+
+body.gym-shop-theme .table-striped tbody tr:nth-of-type(odd),
+body.gym-shop-theme .table-hover tbody tr:hover {
+    background: rgba(255, 122, 24, 0.12);
+}
+
+body.gym-shop-theme .badge {
+    border-radius: 0;
+    padding: 6px 9px;
+    background: #111111 !important;
+    color: #ffd43b;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+body.gym-shop-theme .card {
+    display: flex;
+    min-height: 100%;
+}
+
+body.gym-shop-theme .card-img-top,
+body.gym-shop-theme .product-placeholder {
+    border-radius: 0;
+    filter: grayscale(1) contrast(1.08);
+}
+
+body.gym-shop-theme .card-img-top:hover {
+    filter: grayscale(0) contrast(1.03);
+}
+
+body.gym-shop-theme .card-text {
+    color: #2c2a27;
+}
+
+body.gym-shop-theme .alert {
+    border: 0;
+    border-radius: 0;
+    color: #111111;
+}
+
+body.gym-shop-theme .alert-success,
+body.gym-shop-theme .alert-info {
+    background: #ffd43b;
+}
+
+body.gym-shop-theme .alert-danger {
+    background: #ff7a18;
+}
+
+body.gym-shop-theme .form-control {
+    min-height: 42px;
+    border: 1px solid #111111;
+    border-radius: 0;
+    background: #fffaf0;
+    color: #111111;
+    box-shadow: none;
+}
+
+body.gym-shop-theme textarea.form-control {
+    min-height: 118px;
+}
+
+body.gym-shop-theme hr {
+    border-top-color: rgba(245, 242, 234, 0.2);
+}
+
+body.gym-shop-theme .gym-action-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    color: #f5f2ea;
+}
+
+body.gym-shop-theme .gym-kicker {
+    margin: 0;
+    color: #ffb23f;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+body.gym-shop-theme .gym-page-note {
+    margin: 4px 0 0;
+    color: #cfc9bd;
+}
+
+body.gym-shop-theme .gym-product-grid > [class*="col-"] {
+    margin-bottom: 28px;
+}
+
+body.gym-shop-theme .gym-form-panel {
+    max-width: 860px;
+    background: #f5f2ea;
+    padding: 28px;
+    color: #111111;
+}
+
+body.gym-shop-theme .gym-form-panel:before {
+    content: "";
+    display: block;
+    height: 8px;
+    margin: -28px -28px 26px;
+    background: linear-gradient(90deg, #db1f1f 0%, #ff7a18 50%, #ffd43b 100%);
+}
+
+body.gym-shop-theme .middle-box,
+body.gym-shop-theme .footer {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body.gym-shop-theme .page-heading,
+    body.gym-shop-theme .wrapper-content {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    body.gym-shop-theme .page-heading:after {
+        right: 22px;
+        font-size: 42px;
+    }
+
+    body.gym-shop-theme .gym-action-bar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
